@@ -18,3 +18,4 @@ def approval_process():
     return make_response(jsonify("You are not approved. Go get approved at /set-cookie"))
 
 app.run(debug=True)
+print("hello")
